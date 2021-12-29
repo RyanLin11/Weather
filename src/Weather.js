@@ -27,7 +27,7 @@ class Weather extends React.Component {
       throw new Error('Cannot get weather at specified location.');
     }
   }
-  
+
   async getPhoto() {
     const map = document.createElement('div');
     const service = new google.maps.places.PlacesService(map);
@@ -87,6 +87,6 @@ class Weather extends React.Component {
       </div>
     );
   }
-}
+} 
 
 export default Weather;
